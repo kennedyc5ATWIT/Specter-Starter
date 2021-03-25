@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         state = state.process();
+        print(state);
     }
 
 
